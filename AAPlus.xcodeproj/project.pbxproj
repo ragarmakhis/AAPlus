@@ -10,6 +10,7 @@
 		750B82691782B5A50087F8F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750B82681782B5A50087F8F6 /* Foundation.framework */; };
 		750B826C1782B5A50087F8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750B826B1782B5A50087F8F6 /* main.m */; };
 		750B82701782B5A50087F8F6 /* AAPlus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 750B826F1782B5A50087F8F6 /* AAPlus.1 */; };
+		75BDB1E0178468CA00247859 /* AAData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BDB1DF178468CA00247859 /* AAData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		750B826B1782B5A50087F8F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		750B826E1782B5A50087F8F6 /* AAPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAPlus-Prefix.pch"; sourceTree = "<group>"; };
 		750B826F1782B5A50087F8F6 /* AAPlus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AAPlus.1; sourceTree = "<group>"; };
+		75BDB1DE178468CA00247859 /* AAData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAData.h; sourceTree = "<group>"; };
+		75BDB1DF178468CA00247859 /* AAData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				750B826B1782B5A50087F8F6 /* main.m */,
+				75BDB1DE178468CA00247859 /* AAData.h */,
+				75BDB1DF178468CA00247859 /* AAData.m */,
 				750B826F1782B5A50087F8F6 /* AAPlus.1 */,
 				750B826D1782B5A50087F8F6 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				750B826C1782B5A50087F8F6 /* main.m in Sources */,
+				75BDB1E0178468CA00247859 /* AAData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 				750B82751782B5A50087F8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
