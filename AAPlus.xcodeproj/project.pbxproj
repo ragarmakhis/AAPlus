@@ -6,11 +6,37 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		75FB6F45179D7EEC005097D1 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 75FB6F48179D7EEC005097D1 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				75FB6F49179D7F38005097D1 /* Duild Documentation */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		7508C47C17B65AC300AD421A /* AAMoon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508C47B17B65AC300AD421A /* AAMoon.m */; };
+		7508C48217B66E2A00AD421A /* AAEarth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7508C48117B66E2A00AD421A /* AAEarth.m */; };
 		750B82691782B5A50087F8F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750B82681782B5A50087F8F6 /* Foundation.framework */; };
 		750B826C1782B5A50087F8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 750B826B1782B5A50087F8F6 /* main.m */; };
 		750B82701782B5A50087F8F6 /* AAPlus.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 750B826F1782B5A50087F8F6 /* AAPlus.1 */; };
-		75BDB1E0178468CA00247859 /* AAData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BDB1DF178468CA00247859 /* AAData.m */; };
+		7546E66817B01F2D00C291C5 /* AA2DCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7546E66717B01F2D00C291C5 /* AA2DCoordinate.m */; };
+		757409B417AD87C400E83457 /* AAInterpolate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757409B317AD87C400E83457 /* AAInterpolate.m */; };
+		758F939F17A6F3CB00CF624F /* AADynamicalTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 758F939E17A6F3CB00CF624F /* AADynamicalTime.m */; };
+		7594687817A4015A0090B245 /* AAHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7594687717A4015A0090B245 /* AAHelpers.m */; };
+		7594687B17A40B550090B245 /* AADate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7594687A17A40B550090B245 /* AADate.m */; };
+		7594687E17A42A0C0090B245 /* AARiseTransitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7594687D17A42A0B0090B245 /* AARiseTransitSet.m */; };
+		7594688117A42A8D0090B245 /* AARiseTransitSetDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 7594688017A42A8D0090B245 /* AARiseTransitSetDetails.m */; };
+		7594688417A43BC80090B245 /* AASidereal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7594688317A43BC80090B245 /* AASidereal.m */; };
+		7594688717A44CC00090B245 /* AANutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7594688617A44CC00090B245 /* AANutation.m */; };
+		75DF1039179D534800073D33 /* AACoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF1038179D534800073D33 /* AACoordinateTransformation.m */; };
+		75FB6F4B179DA9FD005097D1 /* AAMoonPhases.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF103B179D552E00073D33 /* AAMoonPhases.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,13 +53,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7508C47A17B65AC300AD421A /* AAMoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMoon.h; sourceTree = "<group>"; };
+		7508C47B17B65AC300AD421A /* AAMoon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMoon.m; sourceTree = "<group>"; };
+		7508C48017B66E2A00AD421A /* AAEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAEarth.h; sourceTree = "<group>"; };
+		7508C48117B66E2A00AD421A /* AAEarth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAEarth.m; sourceTree = "<group>"; };
 		750B82651782B5A50087F8F6 /* AAPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AAPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		750B82681782B5A50087F8F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		750B826B1782B5A50087F8F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		750B826E1782B5A50087F8F6 /* AAPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAPlus-Prefix.pch"; sourceTree = "<group>"; };
 		750B826F1782B5A50087F8F6 /* AAPlus.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AAPlus.1; sourceTree = "<group>"; };
-		75BDB1DE178468CA00247859 /* AAData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAData.h; sourceTree = "<group>"; };
-		75BDB1DF178468CA00247859 /* AAData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAData.m; sourceTree = "<group>"; };
+		7546E66617B01F2D00C291C5 /* AA2DCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AA2DCoordinate.h; sourceTree = "<group>"; };
+		7546E66717B01F2D00C291C5 /* AA2DCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AA2DCoordinate.m; sourceTree = "<group>"; };
+		757409B217AD87C400E83457 /* AAInterpolate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAInterpolate.h; sourceTree = "<group>"; };
+		757409B317AD87C400E83457 /* AAInterpolate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAInterpolate.m; sourceTree = "<group>"; };
+		758F939D17A6F3CB00CF624F /* AADynamicalTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADynamicalTime.h; sourceTree = "<group>"; };
+		758F939E17A6F3CB00CF624F /* AADynamicalTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADynamicalTime.m; sourceTree = "<group>"; };
+		7594687617A401590090B245 /* AAHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAHelpers.h; sourceTree = "<group>"; };
+		7594687717A4015A0090B245 /* AAHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAHelpers.m; sourceTree = "<group>"; };
+		7594687917A40B550090B245 /* AADate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADate.h; sourceTree = "<group>"; };
+		7594687A17A40B550090B245 /* AADate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADate.m; sourceTree = "<group>"; };
+		7594687C17A42A070090B245 /* AARiseTransitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AARiseTransitSet.h; sourceTree = "<group>"; };
+		7594687D17A42A0B0090B245 /* AARiseTransitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AARiseTransitSet.m; sourceTree = "<group>"; };
+		7594687F17A42A8D0090B245 /* AARiseTransitSetDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AARiseTransitSetDetails.h; sourceTree = "<group>"; };
+		7594688017A42A8D0090B245 /* AARiseTransitSetDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AARiseTransitSetDetails.m; sourceTree = "<group>"; };
+		7594688217A43BC80090B245 /* AASidereal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASidereal.h; sourceTree = "<group>"; };
+		7594688317A43BC80090B245 /* AASidereal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASidereal.m; sourceTree = "<group>"; };
+		7594688517A44CC00090B245 /* AANutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AANutation.h; sourceTree = "<group>"; };
+		7594688617A44CC00090B245 /* AANutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AANutation.m; sourceTree = "<group>"; };
+		75DF1037179D534800073D33 /* AACoordinateTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACoordinateTransformation.h; sourceTree = "<group>"; };
+		75DF1038179D534800073D33 /* AACoordinateTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACoordinateTransformation.m; sourceTree = "<group>"; };
+		75DF103A179D552E00073D33 /* AAMoonPhases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMoonPhases.h; sourceTree = "<group>"; };
+		75DF103B179D552E00073D33 /* AAMoonPhases.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMoonPhases.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +126,34 @@
 		750B826A1782B5A50087F8F6 /* AAPlus */ = {
 			isa = PBXGroup;
 			children = (
+				7508C48017B66E2A00AD421A /* AAEarth.h */,
+				7508C48117B66E2A00AD421A /* AAEarth.m */,
 				750B826B1782B5A50087F8F6 /* main.m */,
-				75BDB1DE178468CA00247859 /* AAData.h */,
-				75BDB1DF178468CA00247859 /* AAData.m */,
+				75DF1037179D534800073D33 /* AACoordinateTransformation.h */,
+				75DF1038179D534800073D33 /* AACoordinateTransformation.m */,
+				7594687917A40B550090B245 /* AADate.h */,
+				7594687A17A40B550090B245 /* AADate.m */,
+				7594687617A401590090B245 /* AAHelpers.h */,
+				7594687717A4015A0090B245 /* AAHelpers.m */,
+				75DF103A179D552E00073D33 /* AAMoonPhases.h */,
+				75DF103B179D552E00073D33 /* AAMoonPhases.m */,
+				7594687C17A42A070090B245 /* AARiseTransitSet.h */,
+				7508C47A17B65AC300AD421A /* AAMoon.h */,
+				7508C47B17B65AC300AD421A /* AAMoon.m */,
+				7594687D17A42A0B0090B245 /* AARiseTransitSet.m */,
+				7546E66617B01F2D00C291C5 /* AA2DCoordinate.h */,
+				7546E66717B01F2D00C291C5 /* AA2DCoordinate.m */,
+				757409B217AD87C400E83457 /* AAInterpolate.h */,
+				757409B317AD87C400E83457 /* AAInterpolate.m */,
+				758F939D17A6F3CB00CF624F /* AADynamicalTime.h */,
+				758F939E17A6F3CB00CF624F /* AADynamicalTime.m */,
+				7594688217A43BC80090B245 /* AASidereal.h */,
+				7594688317A43BC80090B245 /* AASidereal.m */,
+				7594688517A44CC00090B245 /* AANutation.h */,
+				7594688617A44CC00090B245 /* AANutation.m */,
 				750B826F1782B5A50087F8F6 /* AAPlus.1 */,
+				7594687F17A42A8D0090B245 /* AARiseTransitSetDetails.h */,
+				7594688017A42A8D0090B245 /* AARiseTransitSetDetails.m */,
 				750B826D1782B5A50087F8F6 /* Supporting Files */,
 			);
 			path = AAPlus;
@@ -135,9 +209,27 @@
 			projectRoot = "";
 			targets = (
 				750B82641782B5A50087F8F6 /* AAPlus */,
+				75FB6F45179D7EEC005097D1 /* Documentation */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75FB6F49179D7F38005097D1 /* Duild Documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Duild Documentation";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"AAPlus\" \\\n--project-company \"ragarmakhis\" \\\n--company-id \"com.ragarmakhis\" \\\n--docset-atom-filename \"AAPlus.atom\" \\\n--output \"/Users/Logger1/Desktop\" \\\n--publish-docset \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--ignore \"*.m\" \\\n--index-desc \"${PROJECT_DIR}/readme.markdown\" \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		750B82611782B5A50087F8F6 /* Sources */ = {
@@ -145,7 +237,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				750B826C1782B5A50087F8F6 /* main.m in Sources */,
-				75BDB1E0178468CA00247859 /* AAData.m in Sources */,
+				75DF1039179D534800073D33 /* AACoordinateTransformation.m in Sources */,
+				75FB6F4B179DA9FD005097D1 /* AAMoonPhases.m in Sources */,
+				7594687817A4015A0090B245 /* AAHelpers.m in Sources */,
+				7594687B17A40B550090B245 /* AADate.m in Sources */,
+				7594687E17A42A0C0090B245 /* AARiseTransitSet.m in Sources */,
+				7594688117A42A8D0090B245 /* AARiseTransitSetDetails.m in Sources */,
+				7594688417A43BC80090B245 /* AASidereal.m in Sources */,
+				7594688717A44CC00090B245 /* AANutation.m in Sources */,
+				758F939F17A6F3CB00CF624F /* AADynamicalTime.m in Sources */,
+				757409B417AD87C400E83457 /* AAInterpolate.m in Sources */,
+				7546E66817B01F2D00C291C5 /* AA2DCoordinate.m in Sources */,
+				7508C47C17B65AC300AD421A /* AAMoon.m in Sources */,
+				7508C48217B66E2A00AD421A /* AAEarth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +333,20 @@
 			};
 			name = Release;
 		};
+		75FB6F46179D7EEC005097D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75FB6F47179D7EEC005097D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -246,6 +364,15 @@
 			buildConfigurations = (
 				750B82741782B5A50087F8F6 /* Debug */,
 				750B82751782B5A50087F8F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75FB6F48179D7EEC005097D1 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75FB6F46179D7EEC005097D1 /* Debug */,
+				75FB6F47179D7EEC005097D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
