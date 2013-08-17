@@ -53,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7505668917BD54F5000CE2F7 /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.markdown; sourceTree = SOURCE_ROOT; };
 		7508C47A17B65AC300AD421A /* AAMoon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMoon.h; sourceTree = "<group>"; };
 		7508C47B17B65AC300AD421A /* AAMoon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMoon.m; sourceTree = "<group>"; };
 		7508C48017B66E2A00AD421A /* AAEarth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAEarth.h; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 		750B826A1782B5A50087F8F6 /* AAPlus */ = {
 			isa = PBXGroup;
 			children = (
+				7505668917BD54F5000CE2F7 /* Readme.markdown */,
 				7508C48017B66E2A00AD421A /* AAEarth.h */,
 				7508C48117B66E2A00AD421A /* AAEarth.m */,
 				750B826B1782B5A50087F8F6 /* main.m */,
